@@ -25,7 +25,11 @@ int main(int argc, char *argv[]) {
     FILE *file_pointer = NULL;
 
     // holds the current character read
-    char current_char;
+    // this is an int and not a char becuase the variable used here
+    // must be big enough to hold any character, as well as, the EOF value 
+    // (which is an int). EOF, fgetc() and getchar() return an int as well
+    // so when reading such data, use an integer
+    int current_char;
 
     // open 'sample_text_file.txt' in read mode ('r')
     file_pointer = fopen("sample_text_file.txt", "r");
