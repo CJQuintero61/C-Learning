@@ -37,6 +37,11 @@ int convert_to_celsius(int fahrenheit) {
         convert_to_celsius:
         This function takes a fahrenheit temperature and converts it to celsius
 
+        NOTE:
+            we multiply by 5 and divide by 9 instead of mulitplying by (5 / 9)
+            because the integer division of 5/9 gets truncated to 0 causing
+            all the celsius computations to be 0
+
         params:
             fahrenheit - int: the fahrenheit value to convert
 
