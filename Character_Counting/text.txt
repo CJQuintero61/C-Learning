@@ -1,0 +1,2 @@
+How many characters are in this file? We won't know
+until the program counts them and prints it for us!
