@@ -1,0 +1,6 @@
+Hello, this is being read from a text file!
+This is a new line right below the previous line.
+
+This is a different line!
+
+This was written on 11/08/2025.
