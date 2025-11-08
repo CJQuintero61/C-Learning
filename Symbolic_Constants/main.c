@@ -21,7 +21,7 @@
 // no semicolon, and they are different from variables
 #define ARRAY_SIZE 10
 
-int main(int argc, int argv[]) {
+int main(int argc, char *argv[]) {
 
     int numbers[ARRAY_SIZE];
 
